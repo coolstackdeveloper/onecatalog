@@ -61,7 +61,7 @@ Type `dotnet run --project OneCatalog.ConsoleApp` (as shown below) to list out a
 
 #### Merge Acquirer and Acquiree product catalog into one super catalog using `consolidate`
 
- `dotnet run --project OneCatalog.ConsoleApp --datasetLocation "./Datasets/input" --resultFileName "result_output.csv" --command consolidate`
+ `dotnet run --project OneCatalog.ConsoleApp --datasetLocation "./Datasets/input" --command consolidate --resultFileName "result_output.csv"`
 
 #### Add a new product to Acquirer catalog using `addProduct`
 
