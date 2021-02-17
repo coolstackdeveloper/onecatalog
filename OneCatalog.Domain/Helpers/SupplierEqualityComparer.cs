@@ -10,9 +10,9 @@ namespace OneCatalog.Domain.Helpers
             return x.Id == y.Id;
         }
 
-        public int GetHashCode(Supplier product)
+        public int GetHashCode(Supplier supplier)
         {
-            return product.Id.GetHashCode();
+            return supplier.Id.GetHashCode();
         }
     }
 }
